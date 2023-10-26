@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>JavaScript Quiz</title>
+
+</head>
+
+<body>
+    <div class="timerLocation">
+        <a class="timer">60 seconds left.</a>
+    </div>
+    <div class="mainPage">
+        <h1 class="mainMessage" id="startMessage">Start the quiz when you're ready!</h1>
+        <button class="startBtn sharedButton" id="startQuiz">Start Quiz</button>
+    </div>
+    <div class="quizContainer">
+        <ul id="questionArea">
+            <!-- Questions will be added here dynamically by JavaScript -->
+        </ul>
+        <div id="answerButtons"></div>
+    </div>
+    <br>
+    <div class="initialsContainer" style="display: none;">
+        <label for="initialsInput">Enter your initials:</label>
+        <input type="text" id="initialsInput">
+        <button id="submitScoreBtn" class="sharedButton">Submit</button>
+    </div>
+    <br>
+    <a href="#" id="viewHighScores" class="sharedButton">View High Scores</a>
+    <div class="highScoresContainer" style="display: none;">
+        <h2>High Scores</h2>
+        <ul id="highScoresList">
+            <!-- High scores will be displayed here dynamically by JavaScript -->
+        </ul>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+.timerLocation {
+    text-align: center;
+}
+
+.mainMenu {
+    text-align: center;
+}
+
+.mainPage {
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    font-family: Rubik, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#questionArea {
+    text-align: center;
+    font-size: 28px;
+}
+
+.answerBtn,
+.sharedButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.answerBtn:hover,
+.sharedButton:hover {
+    background-color: #45a049;
+}
+
+.answerBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* Change this to "block" for vertical stacking */
+    font-size: 18px;
+    margin: 4px 0;
+    /* Adjust margin to separate vertically */
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sharedButton {
+    font-size: 16px;
+}
